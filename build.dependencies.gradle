@@ -4,9 +4,12 @@ repositories {
 
     maven { url= "https://maven.pedropathing.com/" }
     maven { url = "https://mymaven.bylazar.com/releases" }
+    maven { url = "https://maven.rowanmcalpin.com/" }
 }
 
 dependencies {
+
+    //FTC SDK- 
     implementation 'org.firstinspires.ftc:Inspection:10.3.0'
     implementation 'org.firstinspires.ftc:Blocks:10.3.0'
     implementation 'org.firstinspires.ftc:RobotCore:10.3.0'
@@ -16,10 +19,17 @@ dependencies {
     implementation 'org.firstinspires.ftc:FtcCommon:10.3.0'
     implementation 'org.firstinspires.ftc:Vision:10.3.0'
 
+    //PedroPathing lib -
     implementation 'com.pedropathing:ftc:2.0.0'
     implementation 'com.pedropathing:telemetry:0.0.6'
 
+    //Panels lib -
     implementation 'com.bylazar:fullpanels:1.0.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
+
+    //NextFTC lib -
+    implementation 'com.rowanmcalpin.nextftc:core:0.6.2'
+    implementation 'com.rowanmcalpin.nextftc:ftc:0.6.2'
+    implementation 'com.rowanmcalpin.nextftc:pedro:0.6.2'
 }
 
